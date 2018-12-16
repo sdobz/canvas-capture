@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Canvas Capture",
+    "version": "1.0",
+    "description": "Allows user to save a video stream of a canvas",
+    "icons": {
+        "48": "icons/kingpalethe-48.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/record-32.png",
+        "default_title": "Select Canvas"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
